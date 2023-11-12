@@ -1,0 +1,46 @@
+input {
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.save {
+    height: 50px;
+    margin: 0;
+    margin-left: 10px;
+    background-image: url('../../img/add-square.svg');
+    background-size: 100%;
+    border-radius: 12px;
+}
+
+.error{
+    color:red;
+    font-size: 25px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+.itemBlock {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 400px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    place-items: center;
+    padding: 0 20px;
+}
+
+.delete {
+    height: 30px;
+    width: 30px;
+    background-image: url('../../img/delete.svg');
+    background-size: 100%;
+}
